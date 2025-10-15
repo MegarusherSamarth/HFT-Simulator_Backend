@@ -153,16 +153,33 @@ cmake --build .
 
 ---
 
-## 🧠 Challenges Overcome
+## 🧠 Challenges Faced
 
-- Linker errors due to missing implementations
-- Threading setup with detached listeners
-- UDP socket configuration and binding
-- JSON parse crashes from malformed input
-- Toolchain setup with MinGW and CMake
-- Designing modular interfaces across classes
-- Buffer reuse and memory safety
-- Debugging runtime crashes with malformed packets
+### Major Challenges
+
+- Linker errors due to missing method implementations.
+- Threading setup for real-time listeners.
+- UDP socket configuration and binding.
+- JSON parse crashes from malformed input.
+- Toolchain setup with MinGW and CMake.
+- Designing modular interfaces across classes.
+
+### Minor Challenges
+
+- Missing <functional> includes for std::function.
+- Buffer reuse and memory safety.
+- Method signature mismatches between headers and main.cpp..
+- Debugging runtime crashes with malformed packets.
+- Aligning naming conventions across modules.
+
+---
+
+## Testing and Validation
+
+- Manual test cases for each module.
+- Runtime logs for tick and signal processing.
+- Trade output verified through console logs.
+- Simulator runs continuously and handles malformed input without crashing.
 
 ---
 
