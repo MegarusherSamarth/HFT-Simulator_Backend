@@ -199,6 +199,3 @@ For questions, collaboration, or feedback:
 **Lead Developer:** Samarth Agarwal  
 **GitHub:** github.com/MegarusherSamarth  
 
----
-
-Let me know if you’d like help customizing the contact section, adding GitHub badges, or linking to your future Python/ML repo. You’re ready to publish this!
